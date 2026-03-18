@@ -1,16 +1,115 @@
-# React + Vite
+#  NewsWorld - React News App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive news application built with **React** that fetches real-time news using an API. Users can browse the latest headlines by category and stay updated with current events around the world.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## React Compiler
+*  Latest news headlines
+*  Country & category-based news
+*  Infinite scrolling (load more on scroll)
+*  Fast performance using Vite
+*  Clean and responsive UI
+*  Optional Dark Mode (if added)
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+---
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* **React JS**
+* **Vite**
+* **JavaScript (ES6+)**
+* **CSS / Tailwind CSS (if used)**
+* **News API**
+
+---
+
+## Installation & Setup
+
+Follow these steps to run the project locally:
+
+### 1️⃣ Clone the repository
+
+```bash
+git clone https://github.com/your-username/newsworld.git
+```
+
+### 2️⃣ Navigate into the project
+
+```bash
+cd newsworld
+```
+
+### 3️⃣ Install dependencies
+
+```bash
+npm install
+```
+
+### 4️⃣ Start development server
+
+```bash
+npm run dev
+```
+
+---
+
+##  API Setup
+
+This project uses **News API**.
+
+1. Go to https://newsapi.org
+2. Create an account and get your API key
+3. Replace the API key in your code:
+
+```js
+const apiKey = "YOUR_API_KEY";
+```
+
+---
+
+##  Project Structure
+
+```
+src/
+│
+├── components/
+│   ├── NavBar.jsx
+│   ├── News.jsx
+│   ├── NewsItems.jsx
+│   └── Spinner.jsx
+│
+├── App.jsx
+├── main.jsx
+└── App.css
+```
+
+## Contributing
+
+Contributions are welcome!
+
+1. Fork the repo
+2. Create a new branch
+3. Make your changes
+4. Commit and push
+5. Open a Pull Request
+
+---
+
+##  License
+
+This project is open-source and available under the **MIT License**.
+
+---
+
+##  Author
+
+**Ahsan Mudassar**
+GitHub: https://github.com/your-username
+
+---
+
+## Support
+
+If you like this project, please give it a ⭐ on GitHub!
