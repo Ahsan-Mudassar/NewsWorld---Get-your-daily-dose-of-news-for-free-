@@ -29,25 +29,25 @@ A modern and responsive news application built with **React** that fetches real-
 
 Follow these steps to run the project locally:
 
-### 1️⃣ Clone the repository
+### 1. Clone the repository
 
 ```bash
 git clone https://github.com/your-username/newsworld.git
 ```
 
-### 2️⃣ Navigate into the project
+### 2. Navigate into the project
 
 ```bash
 cd newsworld
 ```
 
-### 3️⃣ Install dependencies
+### 3. Install dependencies
 
 ```bash
 npm install
 ```
 
-### 4️⃣ Start development server
+### 4. Start development server
 
 ```bash
 npm run dev
@@ -97,11 +97,6 @@ Contributions are welcome!
 
 ---
 
-##  License
-
-This project is open-source and available under the **MIT License**.
-
----
 
 ##  Author
 
