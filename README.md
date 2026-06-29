@@ -101,8 +101,11 @@ Contributions are welcome!
 ##  Author
 
 **Ahsan Mudassar**
-GitHub: https://github.com/your-username
+GitHub: https://github.com/Ahsan-Mudassar
 
+Live:https://news-world-get-your-daily-dose-of-n.vercel.app
+---
+# Note :I used mews api for my app this will block request after deploying you have upgrade the api to futher succeed.
 ---
 
 ## Support
